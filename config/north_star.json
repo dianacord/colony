@@ -1,0 +1,21 @@
+{
+  "name": "Road to NVIDIA",
+  "goal": "Land an AI or software engineering internship at NVIDIA",
+  "status": "active",
+  "pillars": [
+    "technical_skills",
+    "portfolio",
+    "applications",
+    "networking",
+    "interview_prep"
+  ],
+  "permissions": {
+    "research": true,
+    "write_files": true,
+    "write_code": true,
+    "modify_existing_projects": false,
+    "send_messages": false,
+    "submit_applications": false,
+    "publish": false
+  }
+}
