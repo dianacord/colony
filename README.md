@@ -23,6 +23,7 @@ artifacts/
   reports/          Periodic progress reports
   research/         Notes from research tasks
 dashboard/          Progress dashboard
+scripts/            Maintenance utilities
 ```
 
 ## Pillars
@@ -42,3 +43,8 @@ those actions need a human.
 
 Copy `.env.example` to `.env` and fill in any credentials. `.env` is
 gitignored.
+
+## Checking state
+
+Run `python3 scripts/validate_state.py` after editing config or state files.
+It exits non-zero and lists every problem it finds.
